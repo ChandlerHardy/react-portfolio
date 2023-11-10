@@ -1,15 +1,6 @@
 import { useEffect, useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import {
-//   faCss3,
-//   faGitAlt,
-//   faHtml5,
-//   faJsSquare,
-//   faNode,
-//   faReact,
-// } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
 import CubeSpinner from '../CubeSpinner'
 
@@ -38,49 +29,33 @@ const About = () => {
             />
           </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem est
-            molestiae, voluptate architecto at accusantium amet voluptatibus
-            perferendis suscipit nemo cupiditate ducimus dicta illo quibusdam
-            aspernatur? Optio porro itaque quasi!
+            I'm a self-driven, self-taught front-end developer with a passion
+            for creating visually appealing and intuitive user experiences.
+            Armed with a robust skill set in HTML5, CSS3, and JavaScript, I
+            specialize in crafting dynamic and responsive websites. My journey
+            began with a focus on React.js, where I've honed my skills in
+            building modern, efficient, and scalable user interfaces.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
-            molestias facere quos culpa excepturi suscipit! Enim saepe quod quo
-            hic corrupti alias eveniet dignissimos, non corporis provident id
-            temporibus amet.
+            I thrive on turning design concepts into seamless, interactive
+            realities. Whether it's translating wireframes into code or
+            optimizing user interfaces for performance, I'm dedicated to the
+            delicate balance of aesthetics and functionality. I believe in the
+            power of clean code, thoughtful design, and continuous learning to
+            stay at the forefront of the ever-evolving web development
+            landscape.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
-            commodi repellat hic necessitatibus ea aperiam facilis. Fugit
-            consequuntur dolorem autem! Nam quas perferendis architecto ab error
-            consectetur delectus ratione fuga.
+            In this fast-paced digital era, I am committed to staying ahead of
+            the curve. Beyond the pixels and code, I'm on a constant quest to
+            refine my skills, exploring emerging technologies and best
+            practices. Let's collaborate and bring your digital vision to life –
+            where form meets function, and user experience takes center stage.
           </p>
         </div>
         <CubeSpinner />
-        {/* <div className="stage-cube-cont">
-          <div className="cubespinner">
-            <div className="face1">
-              <FontAwesomeIcon icon={faNode} color="#3C873A" />
-            </div>
-            <div className="face2">
-              <FontAwesomeIcon icon={faHtml5} color="#f06529" />
-            </div>
-            <div className="face3">
-              <FontAwesomeIcon icon={faCss3} color="#28a4d9" />
-            </div>
-            <div className="face4">
-              <FontAwesomeIcon icon={faReact} color="#5ed4f4" />
-            </div>
-            <div className="face5">
-              <FontAwesomeIcon icon={faJsSquare} color="#efd81d" />
-            </div>
-            <div className="face6">
-              <FontAwesomeIcon icon={faGitAlt} color="#ec4d28" />
-            </div>
-          </div>
-        </div> */}
       </div>
-      <Loader type="pacman" />
+      <Loader type="ball-grid-beat" />
     </>
   )
 }

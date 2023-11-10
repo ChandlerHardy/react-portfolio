@@ -52,10 +52,13 @@ const Contact = () => {
             />
           </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
-            aspernatur quibusdam necessitatibus provident facere impedit aliquam
-            quos obcaecati possimus laudantium eveniet, nostrum vero consectetur
-            nemo sit, illo blanditiis hic! Impedit.
+            Are you looking for a passionate and skilled front-end developer to
+            enhance your team? I'm eager to contribute my expertise to your
+            projects. Whether you have a specific opportunity in mind or would
+            like to discuss how my skills align with your organization's needs,
+            I'm here and ready to connect. Feel free to reach out via the form
+            below or connect with me on LinkedIn to explore potential
+            collaborations.
           </p>
           <div className="contact-form">
             <form ref={refForm} onSubmit={sendEmail}>
@@ -114,7 +117,7 @@ const Contact = () => {
           </MapContainer>
         </div>
       </div>
-      <Loader type="pacman" />
+      <Loader type="ball-grid-beat" />
     </>
   )
 }
