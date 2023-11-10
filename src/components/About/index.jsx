@@ -1,16 +1,17 @@
 import { useEffect, useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {
-  faCss3,
-  faGitAlt,
-  faHtml5,
-  faJsSquare,
-  faNode,
-  faReact,
-} from '@fortawesome/free-brands-svg-icons'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import {
+//   faCss3,
+//   faGitAlt,
+//   faHtml5,
+//   faJsSquare,
+//   faNode,
+//   faReact,
+// } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
+import CubeSpinner from '../CubeSpinner'
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -55,8 +56,8 @@ const About = () => {
             consectetur delectus ratione fuga.
           </p>
         </div>
-
-        <div className="stage-cube-cont">
+        <CubeSpinner />
+        {/* <div className="stage-cube-cont">
           <div className="cubespinner">
             <div className="face1">
               <FontAwesomeIcon icon={faNode} color="#3C873A" />
@@ -77,7 +78,7 @@ const About = () => {
               <FontAwesomeIcon icon={faGitAlt} color="#ec4d28" />
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
       <Loader type="pacman" />
     </>
