@@ -1,13 +1,13 @@
 {
     "portfolio": [
         {
-            "cover": "dist/portfolio/1/trailblaze.png",
+            "cover": "portfolio/1/trailblaze.png",
             "title": "TrailBlaze",
             "description": "Express.js, MongoDB, Mongoose.js",
             "url": "http://chandlerhardy.github.io/react-weather-app"
         },
         {
-            "cover": "dist/portfolio/1/weather.png",
+            "cover": "portfolio/1/weather.png",
             "title": "React Weather App",
             "description": "React, JSX",
             "url": "http://chandlerhardy.github.io/react-weather-app"
