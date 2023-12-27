@@ -19,6 +19,7 @@ const Contact = () => {
     }
   }, [])
 
+  // Using emailjs to route contact form to email
   const sendEmail = (e) => {
     e.preventDefault()
 

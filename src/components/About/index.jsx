@@ -29,12 +29,12 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm a self-driven, self-taught front-end developer with a passion
-            for creating visually appealing and intuitive user experiences.
-            Armed with a robust skill set in HTML5, CSS3, and JavaScript, I
-            specialize in crafting dynamic and responsive websites. My journey
-            began with a focus on React.js, where I've honed my skills in
-            building modern, efficient, and scalable user interfaces.
+            I'm a self-driven front-end developer with a passion for creating
+            visually appealing and intuitive user experiences. Armed with a
+            robust skill set in HTML5, CSS3, and JavaScript, I specialize in
+            crafting dynamic and responsive websites. My journey began with a
+            focus on React.js, where I've honed my skills in building modern,
+            efficient, and scalable user interfaces.
           </p>
           <p>
             I thrive on turning design concepts into seamless, interactive

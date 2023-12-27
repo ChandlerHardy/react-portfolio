@@ -3,28 +3,14 @@ import { useEffect, useState } from 'react'
 import LogoTitle from '../../assets/images/logo-s.png'
 import { Link } from 'react-router-dom'
 import AnimatedLetters from '../AnimatedLetters'
-// import Logo from './Logo'
+import Logo from './Logo'
 import Loader from 'react-loaders'
-import CubeSpinner from '../CubeSpinner'
+// import CubeSpinner from '../CubeSpinner'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
-  const nameArray = ['h', 'a', 'n', 'd', 'l', 'e', 'r']
-  const jobArray = [
-    'w',
-    'e',
-    'b',
-    ' ',
-    'd',
-    'e',
-    'v',
-    'e',
-    'l',
-    'o',
-    'p',
-    'e',
-    'r',
-  ]
+  const nameArray = 'handler'.split('')
+  const jobArray = 'web developer'.split('')
 
   useEffect(() => {
     let timeoutId = setTimeout(() => {
@@ -60,12 +46,12 @@ const Home = () => {
             />
           </h1>
           <h2>Frontend Developer / JavaScript</h2>
-          <Link to="/contact" className="flat-button">
+          <Link to="./contact" className="flat-button">
             Contact Me
           </Link>
         </div>
-        {/* <Logo /> */}
-        <CubeSpinner />
+        <Logo />
+        {/* <CubeSpinner /> */}
       </div>
       <Loader type="ball-grid-beat" />
     </>
