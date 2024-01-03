@@ -3,8 +3,8 @@
         {
             "cover": "portfolio/1/trailblaze.png",
             "title": "TrailBlaze",
-            "description": "Express.js, MongoDB, Mongoose.js",
-            "url": "http://chandlerhardy.github.io/react-weather-app"
+            "description": "Express.js, Mongoose.js, MongoDB Atlas",
+            "url": "https://trailblaze2.onrender.com"
         },
         {
             "cover": "portfolio/1/weather.png",
