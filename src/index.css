@@ -13,6 +13,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.dashboard {
+  margin-top: 200px;
+  margin-left: 200px;
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    overflow: visible;
+  }
+}
+
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
